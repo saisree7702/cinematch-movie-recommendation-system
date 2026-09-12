@@ -1,6 +1,9 @@
 # 🎬 CineMatch — Movie Recommendation System
 
 > **Discover. Match. Find Your Next Favorite Movie.**
+> ## 🚀 Live Demo
+
+👉 [Try CineMatch Live](https://cinematch-movie-reco-87yn.bolt.host)
 
 CineMatch is a full-stack movie recommendation web application designed to help users discover movies based on their preferences, including genre, language, mood, and movie attributes.
 
