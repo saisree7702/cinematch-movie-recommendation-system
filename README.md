@@ -1,7 +1,8 @@
 # 🎬 CineMatch — Movie Recommendation System
 
 > **Discover. Match. Find Your Next Favorite Movie.**
-> ## 🚀 Live Demo
+
+## 🚀 Live Demo
 
 👉 [Try CineMatch Live](https://cinematch-movie-reco-87yn.bolt.host)
 
@@ -10,29 +11,21 @@ CineMatch is a full-stack movie recommendation web application designed to help 
 ## ✨ Features
 
 - 🎬 **Discover Movies** — Browse and explore movies
-- 🎯 **Personalized Recommendations** — Get movie recommendations based on your preferences
-- 🧠 **Preference-Based Matching** — See a match percentage for recommended movies
-- 😊 **Mood-Based Recommendations** — Discover movies based on your selected mood
-- 🌐 **Language Preferences** — Get movies matching your preferred language
-- ⭐ **Ratings & Genres** — View useful movie information
-- ❤️ **Favorites** — Save and manage your favorite movies
-- 🎬 **Movie Details** — View detailed information about movies
-- 🔐 **User Authentication** — Register, login, and logout
-- 🖼️ **Poster Fallback** — Displays a clean fallback when a movie poster cannot load
-- 📱 **Responsive Design** — Works across different screen sizes
+- 🎯 **Personalized Recommendations** — Get recommendations based on preferences
+- 🧠 **Preference-Based Matching** — View match percentages
+- 😊 **Mood-Based Recommendations**
+- 🌐 **Language Preferences**
+- ⭐ **Ratings & Genres**
+- ❤️ **Favorites** — Save favorite movies
+- 🎬 **Movie Details**
+- 🔐 **User Authentication**
+- 📱 **Responsive Design**
 
 ## 🧠 Recommendation System
 
 CineMatch currently uses a **preference/content-based recommendation approach**.
 
-The system considers user preferences such as:
-
-- Preferred genre
-- Preferred language
-- Mood
-- Movie attributes
-
-These preferences are compared with available movie information to calculate a **match percentage** and generate relevant recommendations.
+The system compares user preferences such as genre, language, mood, and movie attributes with available movie information to calculate a **match percentage** and generate relevant recommendations.
 
 > **Note:** CineMatch currently uses a rule/content-based approach and does not use a trained machine-learning recommendation model.
 
@@ -40,49 +33,64 @@ These preferences are compared with available movie information to calculate a *
 
 | Technology | Purpose |
 |---|---|
-| React | Frontend development |
-| TypeScript | Type-safe application development |
+| React | Frontend |
+| TypeScript | Type-safe development |
 | Vite | Development and build tooling |
-| Tailwind CSS | Styling and responsive UI |
-| Supabase | Backend services and authentication |
+| Tailwind CSS | Styling |
+| Supabase | Backend and authentication |
 | PostgreSQL | Database |
 | GitHub | Version control |
 
 ## 📌 Main Modules
 
 ### 🏠 Home
-
-A cinematic landing page that introduces CineMatch and provides quick access to movie discovery and personalized recommendations.
+Cinematic landing page with quick access to movie discovery and recommendations.
 
 ### 🔎 Discover Movies
-
 Browse and explore the available movie collection.
 
 ### 🎯 My Recommendations
-
-View personalized movie recommendations with match percentages and explanations for why a movie matches your preferences.
+View personalized recommendations with match percentages.
 
 ### ⚙️ Preferences
-
-Select preferences such as genre, language, and mood to personalize recommendations.
+Select genre, language, and mood preferences.
 
 ### ❤️ Favorites
-
-Save movies to a personal favorites collection and manage saved movies.
+Save and manage favorite movies.
 
 ### 🎬 Movie Details
-
 View detailed information about individual movies.
 
 ### 🔐 Authentication
+Register, login, and logout to access personalized features.
 
-Users can create an account, log in, and log out to access personalized features.
+## 📸 Screenshots
+
+### 🏠 Home
+
+![CineMatch Home](./Screenshot%202026-09-12%20141142.png)
+
+### 🔎 Discover Movies
+
+![Discover Movies](./Screenshot%202026-09-12%20141331.png)
+
+### 🎯 Personalized Recommendations
+
+![Recommendations](./Screenshot%202026-09-12%20141428.png)
+
+### ❤️ Favorites
+
+![Favorites](./Screenshot%202026-09-12%20141532.png)
+
+### 🎬 Movie Details
+
+![Movie Details](./Screenshot%202026-09-12%20141658.png)
 
 ## 🗄️ Database & Backend
 
 CineMatch uses **Supabase with PostgreSQL** for application data and authentication.
 
-The database manages information such as:
+The database manages:
 
 - User accounts
 - Movie information
@@ -90,19 +98,15 @@ The database manages information such as:
 - Favorite movies
 - Recommendation-related data
 
-User-specific data is protected using database access controls and Row Level Security where configured.
-
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-Make sure you have:
+- Node.js
+- npm
+- Supabase project
 
-- [Node.js](https://nodejs.org/) installed
-- npm installed
-- A Supabase project
-
-### 1. Clone the Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/saisree7702/cinematch-movie-recommendation-system.git
